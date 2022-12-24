@@ -291,11 +291,15 @@ footer {
     position: relative;
   }
 
-  h4 {
-
-    bottom: 32em;
-    left: 110px;
+  .home-info {
+    display: flex;
   }
+
+  h4 {
+    left: 40px;
+    bottom: 9em;
+  }
+
 
   p {
     position: absolute;
@@ -314,10 +318,7 @@ footer {
     margin-right: 122222px;
   }
 
-  #ficha-tecnica h3 {
-    margin-left: 19em;
-    font-size: 16;
-  }
+
 
   ol {
     display: inline-block;
@@ -346,7 +347,8 @@ footer {
   }
 
   .home-img img {
-    margin-right: 13em;
+    margin-right: 18em;
+    margin-bottom: 11em;
   }
 
   .home-img button {
@@ -408,6 +410,73 @@ footer {
   footer {
     padding-left: 9em;
   }
+ 
+  .main-video-content{
+    margin-right: 9em;
+    width: 10%;
+  }
+
+  
+.container {
+  display: flex;
+  gap: 15px;
+  margin: 20px 10px;
+  background-color: #ffff;
+  margin-top: 12em;
+  padding-left: 22em;
+}
+
+.main-video-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  box-shadow: 0 1px 2px gray;
+}
+
+.main-video-content video {
+  width: 2px;
+}
+
+.playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  max-height: 400px;
+  padding: 2px;
+  margin-top: 38em;
+  right: 10em;
+}
+
+.playlist::-webkit-scrollbar {
+  width: 6px;
+}
+
+.playlist::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.playlist-video {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  box-shadow: 0 1px 2px gray;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: blue;
+  color: #ffff;
+}
+
+.playlist-video video {
+  width: 80px;
+}
+
 
 
 }
@@ -439,6 +508,8 @@ footer {
   padding-top: 29px;
   left: 28em;
 }
+
+
 
 .container {
   display: flex;
