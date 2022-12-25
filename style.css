@@ -292,7 +292,7 @@ footer {
 
   #ficha-tecnica h3{
     font-size: 2px;
-    left: 90px;
+    left: 99px;
   }
 
   #ficha-tecnica{
@@ -338,7 +338,7 @@ footer {
 
   li {
     top: 35px;
-    right: 217%;
+    right: 213%;
   }
 
 
@@ -410,12 +410,19 @@ footer {
     top: 5px;
   }
 
-  #contact h2 {
+  #contact h1 {
     left: 1px;
+    font-size: 19px;
+    color: #0062ff;
+    padding-right: 5em;
   }
+
+ 
 
   footer {
     padding-left: 9em;
+    font-size: 12px;
+    right: 39px;
   }
 
   .main-video-content {
