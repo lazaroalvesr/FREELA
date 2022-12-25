@@ -290,23 +290,23 @@ footer {
     position: relative;
   }
 
-  #ficha-tecnica h3{
+  #ficha-tecnica h3 {
     font-size: 2px;
     left: 99px;
   }
 
-  #ficha-tecnica{
+  #ficha-tecnica {
     display: flex;
   }
 
   .home-info {
     display: flex;
-    word-wrap: break-word;
     display: flex;
+    word-wrap:break-word;
+                width: 32%; 
   }
 
   .home-info h4 {
-    left: 4em;
     bottom: 27em;
     font-size: 20px;
   }
@@ -315,9 +315,7 @@ footer {
 
   p {
     position: absolute;
-    margin-left: 4em;
-    word-wrap: break-word;
-
+    right: 1em;
   }
 
   .home-info .home-resume {
@@ -339,6 +337,7 @@ footer {
   li {
     top: 35px;
     right: 49.5em;
+
   }
 
 
@@ -374,6 +373,7 @@ footer {
 
   #projects {
     position: relative;
+    right: 2em;
   }
 
   #projects h1 {
@@ -417,7 +417,7 @@ footer {
     padding-right: 5em;
   }
 
- 
+
 
   footer {
     padding-left: 9em;
@@ -437,7 +437,7 @@ footer {
     margin: 20px 10px;
     background-color: #ffff;
     margin-top: 12em;
-    padding-left: 22em;
+    padding-left: 23em;
   }
 
   .main-video-content {
